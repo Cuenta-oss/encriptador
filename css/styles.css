@@ -168,3 +168,18 @@
     background: #9ca0a1;
     transition: .3s;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #DEE3EB;
+}
+
+footer p{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px;
+    color: #022B58;
+}
