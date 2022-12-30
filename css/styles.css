@@ -6,6 +6,7 @@
 
 
 
+
 .container {
     background-color: #DEE3EB;
     height: 100vh;
@@ -169,7 +170,7 @@
     transition: .3s;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,9 +178,22 @@ footer{
     background: #DEE3EB;
 }
 
-footer p{
+footer p {
     font-size: 12px;
     font-weight: 700;
-    padding: 3px;
+    padding: 10px;
     color: #022B58;
+}
+
+.credits {
+    text-decoration: none;
+}
+
+.credits img {
+    width: 40px;
+}
+
+.credits img:hover {
+    width: 40px;
+    /* filter: #022B58; */
 }
